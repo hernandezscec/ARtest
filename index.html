@@ -7,7 +7,7 @@
 	<a-scene embedded arjs='debugUIEnabled: false;'>
 		
 		<a-marker preset="hiro">
-			<a-entity gtlf-model="url=('Models/witchscene.gtlf')"></a-entity>
+			<a-entity gtlf-model="url=('https://hernandezscec.github.io/master/witchscene.gtlf')"></a-entity>
 		</a-marker>
 		</a-scene>	
 		
