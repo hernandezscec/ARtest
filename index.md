@@ -6,7 +6,7 @@
 
 	<a-scene embedded arjs='debugUIEnabled: false;'>
 		
-		<a-marker preset="hiro">
+		<a-marker camera type='pattern' patternUrl='https://hernandezscec.github.io/master/assets/patterns/pattern-cat.patt'>
 			<a-entity gtlf-model="url=('https://hernandezscec.github.io/master/witchscene.gtlf')"></a-entity>
 		</a-marker>
 		</a-scene>	
