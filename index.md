@@ -1,8 +1,10 @@
-<html>
+<!doctype HTML>
 <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
 <script src="https://raw.githack.com/jeromeetienne/AR.js/1.7.5/aframe/build/aframe-ar.js"></script>
-<head>
+<html>
+
 <body style='margin : 0px; overflow: hidden;'>
+
 
 	<a-scene embedded arjs='debugUIEnabled: false;'>
 		
@@ -15,3 +17,4 @@
 		</a-entity>
 		
 </body>
+</html>
