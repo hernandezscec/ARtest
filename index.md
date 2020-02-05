@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     </head>
-    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
 	<script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.js"></script>
     <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.js"></script>
@@ -13,11 +13,11 @@
         <a-scene embedded vr-mode-ui="enabled: false" arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
 
         <a-assets>
-            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/hernandezscec/hernandezscec.github.io/master/witchscene.gltf"></a-asset-item>
+            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/hernandezscec/ARtest/master/witchscene.gltf"></a-asset-item>
         </a-assets>
 
-        <a-marker type='barcode' value='42'>
-            <a-box position='0 0.5 0' color="yellow"></a-box>
+        <a-marker type='barcode' value='6'>
+            <a-box position='0 0.5 0' color="blue"></a-box>
         </a-marker>
 
         <a-marker id="animated-marker" type='barcode' value='42'>
