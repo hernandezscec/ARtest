@@ -15,17 +15,12 @@
             <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/hernandezscec/hernandezscec.github.io/master/witchscene.gltf"></a-asset-item>
         </a-assets>
 
-        <a-marker type='barcode' value='7'>
-            <a-box position='0 0.5 0' color="yellow"></a-box>
-        </a-marker>
-
-        <a-marker id="animated-marker" type='barcode' value='42'>
+		<a-marker type="animated-marker" type='barcode' value='42'>
             <a-entity
-                animation-mixer
                 gltf-model="#animated-asset"
                 scale="2 2 2">
             </a-entity>
-        </a-marker>
+        </a-marker>      
 
         <a-entity camera></a-entity>
         </a-scene>
